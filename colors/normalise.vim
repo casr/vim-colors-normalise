@@ -1,9 +1,9 @@
 " Vim color file
 " Description: Monochrome scheme
 " Maintainer: Chris Rawnsley <chris@puny.agency>
-" Version: 1.0.0
+" Version: 1.0.1
 " Source: https://github.com/casr/vim-colors-normalise
-" Modified: 2020 Apr 30
+" Modified: 2020 May 3
 
 " This colour scheme will, by default, match your terminal's foreground and
 " background colours. You can override this behaviour by setting the `Normal`
@@ -27,7 +27,7 @@ hi ErrorMsg term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse gui
 " hi IncSearch
 hi LineNr term=NONE ctermfg=NONE guifg=NONE
 hi CursorLineNr cterm=bold ctermfg=NONE guifg=NONE
-hi MatchParen cterm=reverse ctermbg=NONE guibg=NONE
+hi MatchParen term=bold cterm=bold ctermbg=NONE guibg=NONE
 hi ModeMsg term=NONE cterm=NONE gui=NONE
 hi MoreMsg term=NONE ctermfg=NONE gui=NONE guifg=NONE
 hi NonText term=NONE ctermfg=NONE gui=NONE guifg=NONE
