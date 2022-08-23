@@ -1,7 +1,7 @@
 normalise.vim
 =============
 
-A truly monochrome scheme that uses only your terminal‘s foreground and
+A truly monochrome scheme that uses only your terminal’s foreground and
 background colours.
 
 ![Terminal showing src/highlight.c from Vim](doc/commadore64.png "Terminal is using a Commodare64-inspired theme which normalise.vim makes use of")
@@ -10,7 +10,7 @@ background colours.
 Using
 -----
 
-The default colours are derived from your terminal‘s style. If you
+The default colours are derived from your terminal’s style. If you
 would like to override this you can set the `Normal` highlight group to
 something custom. For example:
 
