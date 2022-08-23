@@ -1,7 +1,7 @@
 " Vim color file
 " Description: Monochrome scheme
 " Maintainer: Chris Rawnsley <chris@puny.agency>
-" Version: 1.2.0
+" Version: 1.2.1
 " Source: https://github.com/casr/vim-colors-normalise
 " Modified: 2022 Aug 23
 
@@ -40,7 +40,7 @@ hi Question term=NONE ctermfg=NONE gui=NONE guifg=NONE
 hi Search term=NONE ctermbg=NONE guibg=NONE
 hi SpecialKey term=NONE ctermfg=NONE guifg=NONE
 hi StatusLine term=reverse cterm=reverse gui=reverse
-hi StatusLineNC term=NONE cterm=NONE gui=NONE
+hi StatusLineNC term=nocombine cterm=nocombine gui=nocombine
 hi TabLine term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guibg=NONE
 " hi TabLineFill
 hi TabLineSel term=NONE cterm=NONE gui=NONE
