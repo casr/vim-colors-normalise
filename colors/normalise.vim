@@ -1,7 +1,7 @@
 " Vim color file
 " Description: Monochrome scheme
 " Maintainer: Chris Rawnsley <chris@puny.agency>
-" Version: 1.2.1
+" Version: 1.2.2
 " Source: https://github.com/casr/vim-colors-normalise
 " Modified: 2022 Aug 23
 
@@ -9,7 +9,7 @@
 " background colours. You can override this behaviour by setting the `Normal`
 " highlighting group to something different. For example:
 "
-"     hi Normal ctermfg=231 ctermbg=99
+"     hi Normal ctermfg=231 ctermbg=99 guifg=#ffffff guibg=#875fff
 
 hi clear
 if exists('syntax_on')
@@ -17,8 +17,6 @@ if exists('syntax_on')
 endif
 
 let g:colors_name = 'normalise'
-
-hi Normal ctermfg=NONE ctermbg=NONE
 
 hi Directory term=NONE ctermfg=NONE guifg=NONE
 " hi link EndOfBuffer NonText

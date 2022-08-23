@@ -15,10 +15,10 @@ would like to override this you can set the `Normal` highlight group to
 something custom. For example:
 
 ```vim
-augroup NormaliseColors
-	au!
-	au ColorScheme * hi Normal ctermfg=231 ctermbg=99
-augroup END
+autocmd ColorScheme normalise hi Normal
+    \ ctermfg=231 ctermbg=99
+    \ guifg=#ffffff guibg=#875fff
+colorscheme normalise
 ```
 
 
