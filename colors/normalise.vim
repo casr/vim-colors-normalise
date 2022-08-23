@@ -1,9 +1,9 @@
 " Vim color file
 " Description: Monochrome scheme
 " Maintainer: Chris Rawnsley <chris@puny.agency>
-" Version: 1.0.1
+" Version: 1.1.0
 " Source: https://github.com/casr/vim-colors-normalise
-" Modified: 2020 May 3
+" Modified: 2022 Aug 23
 
 " This colour scheme will, by default, match your terminal's foreground and
 " background colours. You can override this behaviour by setting the `Normal`
@@ -32,8 +32,7 @@ hi ModeMsg term=NONE cterm=NONE gui=NONE
 hi MoreMsg term=NONE ctermfg=NONE gui=NONE guifg=NONE
 hi NonText term=NONE ctermfg=NONE gui=NONE guifg=NONE
 hi Pmenu term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guibg=NONE
-" TODO PmenuSel there looks to be a bug with Vim not clearing escape codes?
-hi PmenuSel ctermfg=NONE ctermbg=NONE guibg=NONE
+hi PmenuSel term=nocombine cterm=nocombine ctermfg=NONE ctermbg=NONE gui=nocombine guibg=NONE
 hi PmenuSbar ctermbg=NONE guibg=NONE
 hi PmenuThumb ctermbg=NONE guibg=NONE
 hi Question term=NONE ctermfg=NONE gui=NONE guifg=NONE
