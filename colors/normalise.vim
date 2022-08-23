@@ -1,7 +1,7 @@
 " Vim color file
 " Description: Monochrome scheme
 " Maintainer: Chris Rawnsley <chris@puny.agency>
-" Version: 1.2.2
+" Version: 1.3.0
 " Source: https://github.com/casr/vim-colors-normalise
 " Modified: 2022 Aug 23
 
@@ -114,4 +114,24 @@ endif
 if has('terminal')
 	hi StatusLineTerm term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 	hi StatusLineTermNC term=NONE ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE
+endif
+
+if has('nvim')
+	" hi TermCursor
+	hi FloatShadow guibg=NONE
+	hi FloatShadowThrough guibg=NONE
+	" hi RedrawDebugNormal
+	" hi RedrawDebugClear
+	" hi RedrawDebugComposed
+	" hi RedrawDebugRecompose
+	hi DiagnosticError ctermfg=NONE guifg=NONE
+	hi DiagnosticWarn ctermfg=NONE guifg=NONE
+	hi DiagnosticInfo ctermfg=NONE guifg=NONE
+	hi DiagnosticHint ctermfg=NONE guifg=NONE
+	hi DiagnosticUnderlineError guisp=NONE
+	hi DiagnosticUnderlineWarn guisp=NONE
+	hi DiagnosticUnderlineInfo guisp=NONE
+	hi DiagnosticUnderlineHint guisp=NONE
+
+	hi NvimInternalError ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE
 endif
